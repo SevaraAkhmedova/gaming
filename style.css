@@ -89,6 +89,10 @@ header {
   margin-top: 1.5rem;
 }
 
+header > section {
+  padding: 2rem 0;
+}
+
 .imgbrowse {
   background-image: url(https://templatemo.com/templates/templatemo_579_cyborg_gaming/assets/images/banner-bg.jpg);
   background-repeat: no-repeat;
@@ -126,7 +130,8 @@ header {
   margin: 1rem 0;
 }
 
-.section2 {
+.section2,
+.section3 {
   background-color: #1f2122;
   border-radius: 30px;
   padding: 2rem;
@@ -134,7 +139,7 @@ header {
   margin: auto;
 }
 
-.section2 > h1 {
+.headings {
   padding: 1rem;
   color: white;
   font-size: 2.5rem;
@@ -182,6 +187,52 @@ header {
   color: palevioletred;
   gap: 1rem;
 }
+
+.buttons {
+  background-color: palevioletred;
+  color: white;
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 24px;
+  margin-left: 30rem;
+}
+
+.section3_info {
+  display: grid;
+  margin: 1rem;
+}
+
+.section3_info > article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 1rem 0;
+}
+
+.section3_info > article > div > p {
+  color: grey;
+  font-size: 14px;
+  text-transform: lowercase;
+  padding: 5px 0;
+}
+
+.section3_info > article > img {
+  border-radius: 18px;
+}
+
+.section3_info > article > button {
+  color: palevioletred;
+  border: 1px solid palevioletred;
+  background-color: transparent;
+  border-radius: 24px;
+  padding: 1em 3rem;
+}
+
+hr {
+  color: 1px solid lightgrey;
+}
+
 @media only screen and (max-width: 750px) {
   .menu {
     display: block;
